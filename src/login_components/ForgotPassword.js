@@ -30,7 +30,7 @@ export function ForgotPassword() {
           } else {
             alert(mail.data.message);
           }
-          toast.success(mail.data.message);
+          // toast.success(mail.data.message);
         } catch (error) {
           toast.error(error.response.data.message);
         }
@@ -40,10 +40,10 @@ export function ForgotPassword() {
   return (
     <>
       <form onSubmit={handleSubmit} className="forgot-form form">
-        <h3>Forgot Password?</h3>
+        <h3>Forgot Your Password?</h3>
         <TextField
           type="email"
-          label="email"
+          label="Enter Registered Email ID"
           name="email"
           value={values.email}
           onChange={handleChange}
@@ -52,13 +52,13 @@ export function ForgotPassword() {
           helperText={touched.email && errors.email ? errors.email : null}
         />
 
-        <Button
+        <button
           type="submit"
-          className="verify-user-button"
+          className="col-lg-12 btn btn-secondary btn-lg btn-block"
           variant="contained"
         >
-          verify
-        </Button>
+          VERIFY
+        </button>
       </form>
     </>
   );

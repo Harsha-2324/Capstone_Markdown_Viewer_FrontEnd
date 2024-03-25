@@ -171,9 +171,13 @@ function Register() {
                       </div>
 
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                        <Button variant="contained" type="submit">
+                        <button
+                          variant="contained"
+                          type="submit"
+                          className="col-lg-12 btn btn-secondary btn-lg btn-block"
+                        >
                           Register
-                        </Button>
+                        </button>
                       </div>
                       <p class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         Already have an account?
@@ -181,8 +185,8 @@ function Register() {
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         <Button
                           onClick={() => navigate("/")}
-                          variant="outlined"
-                          color="success"
+                          variant="contained"
+                          color="secondary"
                           className="btn btn-sm"
                           // startIcon={<LoginIcon />}
                         >
@@ -193,7 +197,7 @@ function Register() {
                   </div>
                   <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
                     <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                      src="Sign up.gif"
                       class="img-fluid"
                       alt="Sample image"
                     />
