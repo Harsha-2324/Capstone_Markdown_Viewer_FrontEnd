@@ -109,13 +109,14 @@ function ChangePassword() {
                       </div>
 
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                        <Button
+                        <button
                           variant="contained"
                           type="submit"
+                          className="col-lg-12 btn btn-secondary btn-lg btn-block"
                           // onClick={() => navigate("/")}
                         >
                           Submit
-                        </Button>
+                        </button>
                       </div>
                     </form>
                   </div>
