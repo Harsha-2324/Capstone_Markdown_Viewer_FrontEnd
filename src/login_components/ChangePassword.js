@@ -121,7 +121,7 @@ function ChangePassword() {
                   </div>
                   <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
                     <img
-                      src="Reset password.gif"
+                      src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*jn1QCuXlVOS3UBgafCsUrQ.gif"
                       class="img-fluid"
                       alt="Sample image"
                     />
