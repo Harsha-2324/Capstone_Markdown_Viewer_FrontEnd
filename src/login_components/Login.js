@@ -55,6 +55,13 @@ export function Login() {
             />
           </div>
           <div className="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+            <div>
+              <img
+                src="https://static-00.iconduck.com/assets.00/markdown-icon-2048x1463-m4k09ey7.png"
+                className="img-fluid login-img"
+                alt="Phone image"
+              />
+            </div>
             <h3 className="d-flex justify-content-center py-5">
               MarkDown Viewer
             </h3>
