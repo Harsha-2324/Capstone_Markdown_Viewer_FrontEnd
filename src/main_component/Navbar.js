@@ -57,7 +57,7 @@ function Navbar() {
             </button>
             <Link
               className="btn btn-outline-primary m-2"
-              to="https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf"
+              to="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax"
               target={"_blank"}
             >
               Help
