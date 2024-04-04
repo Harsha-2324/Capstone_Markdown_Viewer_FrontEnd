@@ -111,7 +111,7 @@ https://github.com/Harsha-2324/Capstone_Markdown_Viewer_FrontEnd/assets/24225236
 3. **Install Dependencies for the Frontend**:
 
    ```bash
-   cd client
+   cd Capstone_Markdown_Viewer_FrontEnd
    npm install
    ```
 
@@ -119,7 +119,7 @@ https://github.com/Harsha-2324/Capstone_Markdown_Viewer_FrontEnd/assets/24225236
 
    ```bash
    cd ..
-   cd server
+   cd Capstone_Markdown_Viewer_BackEnd
    npm install
    ```
 
@@ -129,7 +129,7 @@ https://github.com/Harsha-2324/Capstone_Markdown_Viewer_FrontEnd/assets/24225236
    - Define the following variables:
 
      ```plaintext
-     PORT=8090
+     PORT=3000
      MONGODB_URI=<your-mongodb-uri>
      JWT_SECRET=<your-jwt-secret>
      ```
@@ -139,14 +139,14 @@ https://github.com/Harsha-2324/Capstone_Markdown_Viewer_FrontEnd/assets/24225236
 1. **Start the Backend Server**:
 
    ```bash
-   cd server
+   cd Capstone_Markdown_Viewer_BackEnd
    npm start
    ```
 
 2. **Start the Frontend Development Server**:
 
    ```bash
-   cd client
+   cd Capstone_Markdown_Viewer_FrontEnd
    npm start
    ```
 
