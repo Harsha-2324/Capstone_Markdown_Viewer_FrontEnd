@@ -129,7 +129,7 @@ https://github.com/Harsha-2324/Capstone_Markdown_Viewer_FrontEnd/assets/24225236
    - Define the following variables:
 
      ```plaintext
-     PORT=3000
+     PORT=5555
      MONGODB_URI=<your-mongodb-uri>
      JWT_SECRET=<your-jwt-secret>
      ```
@@ -150,4 +150,4 @@ https://github.com/Harsha-2324/Capstone_Markdown_Viewer_FrontEnd/assets/24225236
    npm start
    ```
 
-3. **Visit `http://localhost:3000`** in your web browser to access the application.
+3. **Visit `http://localhost:5555`** in your web browser to access the application.
