@@ -18,17 +18,19 @@ Welcome to the Markdown Viewer Capstone Project! This project is a full-stack we
 Watch a quick video demonstration of My URL Shortener Web Application:
 
 ## **Video: 1 Featuring** 🎥
-   - `Register`: POST Data to MongoDB Database
-   - `Login`: GET Data from MongoDB Database
-   - `URL Shortening`: You can convert long, complex URLs into concise, easy-to-share links.
-
+   - `Register`: POST Data to MongoDB Database.
+   - `Login`: GET Data from MongoDB Database.
+   - `MongoDB User Data`: View User Data on MongoDB Database.
+  
 https://github.com/Harsha-2324/URL-Shortener-FrontEnd/assets/24225236/2ca83ebb-ee06-4ae2-8c76-a2dafad93338
 
 
 ## **Video: 2 Featuring** 🎥
-   - `MongoDB User Data`: View User Data on MongoDB Database
-   - `JWT Token Generation`: For Secure user authentication
-   - `URL Clicks Count`: You can view the URL link's clicks count.
+   - `Login`: GET Data from MongoDB Database.
+   - `Markdown File Help`: You can click the Help button to view a Webpage: How to create a Markdown File.
+   - `Markdown File Create`: You can create the Markdown File.
+   - `Markdown File Save`: You can save the created Markdown File.
+   - `MongoDB User Content`: View User Content on MongoDB Database.
 
 https://github.com/Harsha-2324/URL-Shortener-FrontEnd/assets/24225236/5c590f42-6199-4764-b55b-5dc6101609eb
 
@@ -38,7 +40,7 @@ https://github.com/Harsha-2324/URL-Shortener-FrontEnd/assets/24225236/5c590f42-6
    - `JWT Token Generation`: For Secure user authentication
    - `Reset Password`: PUT Data to MongoDB Database
    - `Login`: using New Password
-   - `URL Shortening`: You can convert long, complex URLs into concise, easy-to-share links.
+   - `Markdown File Create`: You can create the Markdown File.
 
 https://github.com/Harsha-2324/URL-Shortener-FrontEnd/assets/24225236/cf3ce261-ff6e-42af-9880-5370f57fbf3d
 
