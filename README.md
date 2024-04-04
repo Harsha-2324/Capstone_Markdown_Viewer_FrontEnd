@@ -4,7 +4,7 @@ Welcome to the Markdown Viewer Capstone Project! This project is a full-stack we
 
 ## FrontEnd Vercel Deployed URL ⌛
 
-🔸*Click on the Badge to Check out My URL Shortener Application Here*👉🏻 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+🔸*Click on the Badge to Check out My Markdown Viewer Application Here*👉🏻 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ](https://capstone-markdown-viewer-front-end.vercel.app)
 
 ## BackEnd Render Deployed URL ⌛
