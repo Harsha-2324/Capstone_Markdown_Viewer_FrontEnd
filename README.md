@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# Markdown Viewer Capstone Project 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Markdown Viewer Capstone Project! This project is a full-stack web application that allows users to view and manage Markdown files using MongoDB, Express.js, React.js, and Node.js.
 
-## Available Scripts
+## FrontEnd Vercel Deployed URL ⌛
 
-In the project directory, you can run:
+🔸*Click on the Badge to Check out My URL Shortener Application Here*👉🏻 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+](https://capstone-markdown-viewer-front-end.vercel.app)
 
-### `npm start`
+## BackEnd Render Deployed URL ⌛
+🔸[![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)](https://capstone-markdown-viewer-backend-n5eh.onrender.com)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## BackEnd GitHub Repository URL ⌛
+🔸*Click on the Badge to Check out My BackEnd GitHub Repository Here*👉🏻[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harsha-2324/Capstone_Markdown_Viewer_BackEnd.git)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features ✨
 
-### `npm test`
+- **Real-Time Rendering**: Markdown files are rendered instantly as you type.
+- **Syntax Highlighting**: Syntax highlighting for code blocks and inline code.
+- **User Authentication**: Secure user authentication system for managing Markdown files.
+- **CRUD Operations**: Create, read, update, and delete Markdown files.
+- **Responsive Design**: Works seamlessly on desktop and mobile devices.
+- **Password Reset**: Seamless password reset functionality for users.
+- **Email Notifications**: Nodemailer integration to send password reset emails.
+- **JWT Token Expiry**: Automatic expiration of JWT tokens for enhanced security.
+- **Signup**: User registration with email and password.
+- **Authorize Email**: Validate email addresses to ensure they are legitimate.
+- **Password Validation**: Ensure strong password requirements for user security.
+- **React Frontend**: Modern and intuitive user interface built with React.
+- **Node.js Backend**: Robust backend server developed with Node.js.
+- **MongoDB Integration**: Integration with MongoDB for efficient data storage.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used in FrontEnd and BackEnd 🛠️
 
-### `npm run build`
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
+![dotenv](https://img.shields.io/badge/dotenv-007A88?style=for-the-badge&logo=dotenv&logoColor=white)
+![cors](https://img.shields.io/badge/cors-1572B6?style=for-the-badge&logo=cors&logoColor=white)
+![Nodemailer](https://img.shields.io/badge/Nodemailer-339933?style=for-the-badge&logo=nodemailer&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tools Used Technologies Used in FrontEnd and BackEnd 🛠️
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-4DB33D?style=for-the-badge&logo=mongodb&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white)
 
-### `npm run eject`
+## Installation 🧑🏻‍💻
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the Repository**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/your-username/markdown-viewer-capstone.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Navigate to the Project Directory**:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   cd markdown-viewer-capstone
+   ```
 
-## Learn More
+3. **Install Dependencies for the Frontend**:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   cd client
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Install Dependencies for the Backend**:
 
-### Code Splitting
+   ```bash
+   cd ..
+   cd server
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. **Set up Environment Variables**:
 
-### Analyzing the Bundle Size
+   - Create a `.env` file in the `server` directory.
+   - Define the following variables:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+     ```plaintext
+     PORT=8090
+     MONGODB_URI=<your-mongodb-uri>
+     JWT_SECRET=<your-jwt-secret>
+     ```
 
-### Making a Progressive Web App
+## Usage 🚀
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. **Start the Backend Server**:
 
-### Advanced Configuration
+   ```bash
+   cd server
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. **Start the Frontend Development Server**:
 
-### Deployment
+   ```bash
+   cd client
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. **Visit `http://localhost:3000`** in your web browser to access the application.
