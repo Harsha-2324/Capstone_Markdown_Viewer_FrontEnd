@@ -13,6 +13,36 @@ Welcome to the Markdown Viewer Capstone Project! This project is a full-stack we
 ## BackEnd GitHub Repository URL ⌛
 🔸*Click on the Badge to Check out My BackEnd GitHub Repository Here*👉🏻[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harsha-2324/Capstone_Markdown_Viewer_BackEnd.git)
 
+## Video Demo 🎥
+
+Watch a quick video demonstration of My URL Shortener Web Application:
+
+## **Video: 1 Featuring** 🎥
+   - `Register`: POST Data to MongoDB Database
+   - `Login`: GET Data from MongoDB Database
+   - `URL Shortening`: You can convert long, complex URLs into concise, easy-to-share links.
+
+https://github.com/Harsha-2324/URL-Shortener-FrontEnd/assets/24225236/2ca83ebb-ee06-4ae2-8c76-a2dafad93338
+
+
+## **Video: 2 Featuring** 🎥
+   - `MongoDB User Data`: View User Data on MongoDB Database
+   - `JWT Token Generation`: For Secure user authentication
+   - `URL Clicks Count`: You can view the URL link's clicks count.
+
+https://github.com/Harsha-2324/URL-Shortener-FrontEnd/assets/24225236/5c590f42-6199-4764-b55b-5dc6101609eb
+
+
+## **Video: 3 Featuring** 🎥
+   - `Forgot Password`: Mail Sent to Registered User's Mail ID using SMTP Protocol
+   - `JWT Token Generation`: For Secure user authentication
+   - `Reset Password`: PUT Data to MongoDB Database
+   - `Login`: using New Password
+   - `URL Shortening`: You can convert long, complex URLs into concise, easy-to-share links.
+
+https://github.com/Harsha-2324/URL-Shortener-FrontEnd/assets/24225236/cf3ce261-ff6e-42af-9880-5370f57fbf3d
+
+
 ## Features ✨
 
 - **Real-Time Rendering**: Markdown files are rendered instantly as you type.
